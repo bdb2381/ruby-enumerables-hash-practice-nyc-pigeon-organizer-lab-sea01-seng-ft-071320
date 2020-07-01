@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
 
   data.map do | key, value, index|
-    print "Brad's bird name is #{data[key][value][index]}"
+    binding.pry data[key][value][index]
   end
 
 

@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  data.map do 
+  data.map do
 "Theo" = pigeon_data[:color][:purple][0], [:gender][:male][1]
 find all the names in the hash of arrays
 once all have all names, compare if name is in a key value

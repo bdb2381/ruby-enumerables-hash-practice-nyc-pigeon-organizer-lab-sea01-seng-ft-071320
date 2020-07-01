@@ -2,9 +2,10 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   # write your code here!
 
-  binding.pry
+
   data.map do | key, value, index|
-  puts data[:key][:key][index]
+   data[:key][:key][index]
+   binding.pry
   end
 
 

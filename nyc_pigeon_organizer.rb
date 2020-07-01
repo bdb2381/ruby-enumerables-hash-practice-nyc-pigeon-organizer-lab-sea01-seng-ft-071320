@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
   binding.pry
   data.map do | key, value, index|
-   data[:key][:key][index]
+  puts data[:key][:key][index]
   end
 
 

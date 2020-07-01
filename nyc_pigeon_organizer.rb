@@ -1,7 +1,11 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  data.map do
-"Theo" = pigeon_data[:color][:purple][0], [:gender][:male][1]
+
+
+  data.map do | key, value, index|
+    print data[key][value][index]
+  end
+"Theo" = pigeon_data[:color][:purple][0], [:gender][:male][1] =>theo
 find all the names in the hash of arrays
 once all have all names, compare if name is in a key value
 if yes (name is in key value), give the new key has the value of the old key

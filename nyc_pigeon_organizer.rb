@@ -5,9 +5,10 @@ def nyc_pigeon_organizer(data)
     value.each do |array_key, bird_names|  #loop down to the value level of arrays of names
       bird_names.each do |name|
         if !final[name]
-          final[name] = {:color => [], :gender => [], :lives => []}   #create a hash with the keys and their blank values in an array
-        #  binding.pry
+          final[name] = {}#{:color => [], :gender => [], :lives => []}   #create a hash with the keys and their blank values in an array
         end #end if statement
+        if !final[key] = []
+binding.pry
       end #end loop of names
     end #end loop of values
   end #end loop of each_with_object

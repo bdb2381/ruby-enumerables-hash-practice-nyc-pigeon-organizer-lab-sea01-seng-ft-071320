@@ -10,17 +10,13 @@ def nyc_pigeon_organizer(data)
         if !final[name][key]
           final[name][key] = []
         end
-        #binding.pry
         final[name][key] << array_key.to_s
-        puts final
       end #end loop of names
     end #end loop of values
   end #end loop of each_with_object
 
 
-#print data[:color][:purple][0]
-
-end
+end  #end method
 
 
 

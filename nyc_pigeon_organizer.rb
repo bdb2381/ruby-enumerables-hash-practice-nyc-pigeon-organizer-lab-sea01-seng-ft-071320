@@ -3,10 +3,10 @@ def nyc_pigeon_organizer(data)
   # write your code here!
 
 
-  data.each do | key, value, index|
+#  data.each do | key, value, index|
   # data[:key][:key][index]
    binding.pry
-  end
+#  end
 
 
 end

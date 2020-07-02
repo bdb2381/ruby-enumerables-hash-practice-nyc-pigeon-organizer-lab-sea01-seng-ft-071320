@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
     end
 
   end
-    
+
 
 #print data[:color][:purple][0]
 

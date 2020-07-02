@@ -7,13 +7,11 @@ def nyc_pigeon_organizer(data)
         if !final[name]
           final[name] = {}   #each name individually as a string so long as it doesn't already exist
           #binding.pry
-        end
-      end
-
-    end
-
-  end
-
+        end #end if statement
+      end #end loop of names
+    end #end loop of values
+  end #end loop of each_with_object
+print final
 
 #print data[:color][:purple][0]
 

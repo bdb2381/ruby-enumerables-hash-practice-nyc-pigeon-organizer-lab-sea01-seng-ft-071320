@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
     value.each do |array_key, bird_names|  #loop down to the value level of arrays of names
       bird_names.each do |name|
         if !final[name]
-          final[name] = {}  #each name individually as a string so long as it doesn't already exist
-          #binding.pry  
+          final[name]   #each name individually as a string so long as it doesn't already exist
+          #binding.pry
         end
       end
 

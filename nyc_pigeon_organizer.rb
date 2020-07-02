@@ -1,11 +1,11 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  unqiue_names = {}
   data.each_with_object({}) do | (key, value), final|
     value.each do |array_key, bird_names|
       bird_names.each do |name|
-        unqiue_names{} = name
-        pring unqiue_names
+        unqiue_names = name
+        print unqiue_names
       end
     end
   end

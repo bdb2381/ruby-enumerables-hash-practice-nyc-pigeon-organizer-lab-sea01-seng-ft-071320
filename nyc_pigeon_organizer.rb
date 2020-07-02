@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |array_key, bird_names|  #loop down to the value level of arrays of names
       bird_names.each do |name|
         if !final[name]
-          final[name] = {:color => [], :gender => [], :lives => []}   #each name individually as a string so long as it doesn't already exist
+          final[name] = {:color => [], :gender => [], :lives => []}   #create a hash with the keys and their blank values in an array
           #binding.pry
         end #end if statement
       end #end loop of names

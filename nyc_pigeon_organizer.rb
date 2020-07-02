@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       bird_names.each do |name|
         if !final[name]
           final[name] = {}  #each name individually as a string so long as it doesn't already exist
-          binding.pry  
+          #binding.pry  
         end
       end
 

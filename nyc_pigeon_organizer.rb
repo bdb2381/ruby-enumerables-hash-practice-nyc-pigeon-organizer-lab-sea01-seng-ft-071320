@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
       #  end
 
         final[name][key] << array_key.to_s
-
+        binding.pry
       end #end loop of names
     end #end loop of values
   end #end loop of each_with_object

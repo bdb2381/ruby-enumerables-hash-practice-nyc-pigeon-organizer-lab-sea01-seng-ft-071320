@@ -3,7 +3,8 @@ def nyc_pigeon_organizer(data)
   # write your code here!
 
   data.each_with_object({}) do | (key, value), final|
-    value.each do |array_key, bird_names|
+    value.map do |array_key, bird_names|
+      bird_names
     binding.pry
     end
   end

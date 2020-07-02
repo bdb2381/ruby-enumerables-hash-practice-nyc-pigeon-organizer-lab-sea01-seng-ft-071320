@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
         end #end if statement
         if !final[key] = []
 binding.pry
+        end
       end #end loop of names
     end #end loop of values
   end #end loop of each_with_object

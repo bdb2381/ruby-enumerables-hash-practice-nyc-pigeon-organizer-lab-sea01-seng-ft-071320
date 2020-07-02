@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
                 end #end if statement
         if !final[name][key]
         combined  = final[name][key] = []
+        binding.pry
         end
         final[name][key] << array_key.to_s
       end #end loop of names

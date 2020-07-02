@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     end #end loop of values
   end #end loop of each_with_object
 
-
+binding.pry
 end  #end method
 
 

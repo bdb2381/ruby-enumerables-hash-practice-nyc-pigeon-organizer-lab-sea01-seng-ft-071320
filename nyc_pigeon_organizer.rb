@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |array_key, bird_names|
       bird_names.each do |name|
         unqiue_names = name
-         
+
       end
     end
   end

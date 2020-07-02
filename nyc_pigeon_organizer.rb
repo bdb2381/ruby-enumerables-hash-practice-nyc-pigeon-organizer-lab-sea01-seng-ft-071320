@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
         final = name
 
       end
-      print final
-    end
+
+    end print final
   end
 
 

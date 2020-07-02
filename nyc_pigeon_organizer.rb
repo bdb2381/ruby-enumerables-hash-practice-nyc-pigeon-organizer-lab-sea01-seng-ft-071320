@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   # data[:key][value]
 #   binding.pry
 #  end
-print data
+print data[:color][:purple][0]
 
 end
 =begin

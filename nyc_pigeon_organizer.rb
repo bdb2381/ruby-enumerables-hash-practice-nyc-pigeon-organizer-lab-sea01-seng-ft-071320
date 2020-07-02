@@ -4,19 +4,23 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do | (key, value), final|   #key value pair loop with a final result of hash
     value.each do |array_key, bird_names|  #loop down to the value level of arrays of names
       bird_names.each do |name|
+
         if !final[name]
           final[name] = {} #{:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
-                end #end if statement
+        end #end if statement
+
+      =begin
         if !final[name][key]
-        combined  = final[name][key] = []
-        binding.pry
-        end
+          final[name][key] = []
+      =end
+
         final[name][key] << array_key.to_s
+
       end #end loop of names
     end #end loop of values
   end #end loop of each_with_object
 
-binding.pry
+
 end  #end method
 
 

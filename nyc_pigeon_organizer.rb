@@ -1,6 +1,6 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
-  unqiue_names = {}
+  unqiue_names = []
   data.each_with_object({}) do | (key, value), final|
     value.each do |array_key, bird_names|
       bird_names.each do |name|

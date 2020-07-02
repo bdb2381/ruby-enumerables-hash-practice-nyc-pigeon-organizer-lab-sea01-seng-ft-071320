@@ -5,16 +5,16 @@ def nyc_pigeon_organizer(data)
     value.each do |array_key, bird_names|  #loop down to the value level of arrays of names
       bird_names.each do |name|
 
-        if !final[name]
+        #if !final[name]
           #final[name] = {} #{:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
-          final[name] = {:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
-        end #end if statement
+        #  final[name] = {:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
+        #end #end if statement
 
-      #
+
       #  if !final[name][key]
       #    final[name][key] = []
-      #end
-
+      #  end
+        final[name] = {:color => [], :gender => [], :lives => []}
         final[name][key] << array_key.to_s
 
       end #end loop of names

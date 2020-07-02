@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
       bird_names.each do |name|
 
         if !final[name] #if there is no final array of Name, create the Name array
-          final[name] = {} #{:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
-          #final[name] = {:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
+          #final[name] = {} #{:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
+          final[name] = {:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
         end #end if statement
 
 

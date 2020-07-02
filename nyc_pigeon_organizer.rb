@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         if !final[name]
           final[name] = {} #{:color => [], :gender => [], :lives => []}   #create a hash with the keys and their blank values in an array
         end #end if statement
-        if !final[key] = []
+        if !final[name][key] = []
 binding.pry
         end
       end #end loop of names

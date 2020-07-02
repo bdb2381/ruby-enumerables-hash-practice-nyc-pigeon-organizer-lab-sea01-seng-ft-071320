@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
 
   data.each do | key, value, index|
-   data[:key][:key][index]
+  # data[:key][:key][index]
    binding.pry
   end
 

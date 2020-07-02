@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do | (key, value), final|
     value.each do |array_key, bird_names|
       bird_names.each do |name|
-        print name
+        print name.unique
       end
     end
   end

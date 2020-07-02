@@ -1,17 +1,17 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   unqiue_names = []
-  data.each_with_object({}) do | (key, value), final|
-    value.each do |array_key, bird_names|
+  data.each_with_object({}) do | (key, value), final|   #key value pair loop with a final result of hash
+    value.each do |array_key, bird_names|  #loop down to the value level of arrays of names
       bird_names.each do |name|
-        final = name
+        final = name  #each name individually as a string
 
       end
 
     end
 
   end
-    print final
+    
 
 #print data[:color][:purple][0]
 

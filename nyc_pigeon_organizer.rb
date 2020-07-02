@@ -9,9 +9,9 @@ def nyc_pigeon_organizer(data)
       end
 
     end
-    print final
-  end
 
+  end
+    print final
 
 #print data[:color][:purple][0]
 

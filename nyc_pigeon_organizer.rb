@@ -9,10 +9,10 @@ def nyc_pigeon_organizer(data)
           final[name] = {} #{:color => [], :gender => [], :lives => []}   #create a hash with keys based on names with
         end #end if statement
 
-      =begin
-        if !final[name][key]
-          final[name][key] = []
-      =end
+      #
+      #  if !final[name][key]
+      #    final[name][key] = []
+      #end
 
         final[name][key] << array_key.to_s
 

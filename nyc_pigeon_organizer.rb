@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       end #end loop of names
     end #end loop of values
   end #end loop of each_with_object
-print final
+binding.pry
 
 #print data[:color][:purple][0]
 

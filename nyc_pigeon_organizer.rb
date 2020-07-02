@@ -2,12 +2,14 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   # write your code here!
 
-  data.each_with_object({}) do | (key, value), final|
+  names = data.each_with_object({}) do | (key, value), final|
     value.map do |array_key, bird_names|
-      print bird_names
+      bird_names
     #binding.pry
     end
   end
+
+  print names
 #print data[:color][:purple][0]
 
 end

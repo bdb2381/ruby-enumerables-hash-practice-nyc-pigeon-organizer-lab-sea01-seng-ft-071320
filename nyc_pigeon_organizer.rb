@@ -1,8 +1,7 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   # write your code here!
-  names = {}
-  names = data.each_with_object({}) do | (key, value), final|
+  data.each_with_object({}) do | (key, value), final|
     value.each do |array_key, bird_names|
       bird_names.each do |name|
     #binding.pry
@@ -10,7 +9,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  print names
+  print final
 #print data[:color][:purple][0]
 
 end

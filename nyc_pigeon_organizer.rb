@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   names = {}
   data.each_with_object({}) do | (key, value), final|
     value.map do |array_key, bird_names|
-      bird_names
+    puts  bird_names
     #binding.pry
     end
   end

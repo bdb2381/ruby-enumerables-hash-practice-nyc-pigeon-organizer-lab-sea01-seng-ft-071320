@@ -8,7 +8,8 @@ def nyc_pigeon_organizer(data)
 
       end
 
-    end print final
+    end
+    print final
   end
 
 

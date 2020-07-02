@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
     value.each do |array_key, bird_names|
       bird_names.each do |name|
     #binding.pry
-      end 
+      print name
+      end
     end
   end
 

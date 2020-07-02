@@ -3,8 +3,9 @@ def nyc_pigeon_organizer(data)
   # write your code here!
 
   data.each_with_object({}) do | (key, value), final|
-    final 
+    value.each do |array_key, bird_names|
     binding.pry
+    end
   end
 #print data[:color][:purple][0]
 

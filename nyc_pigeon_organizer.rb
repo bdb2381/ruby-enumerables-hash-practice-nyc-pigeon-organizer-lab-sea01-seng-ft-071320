@@ -3,9 +3,9 @@ def nyc_pigeon_organizer(data)
   # write your code here!
 
 
-  data.each do | (key, value), a|
-    #data[:key][value].each do |key, value|
-      puts "heloo #{[key]}, #{value}, #{a}"
+  data.each_with_object({}) do | (key, value), final|
+    final[k] = v 
+binding.pry
     end
 #   binding.pry
   end
